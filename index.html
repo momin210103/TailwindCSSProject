@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Assignment 4 </title>
+</head>
+<body>
+  <!-- ! large Screen navbar -->
+  <nav class=" hidden sm:flex sticky w-full top-0 left-0 z-20 bg-white  justify-between items-center shadow-xl border-2 p-4">
+    <div>
+      <img src="./images/logo-header.png" alt="">
+    </div>
+    <div class="flex justify-between items-center gap-10">
+        <ul class="flex font-semibold gap-5">
+          <li>Products</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+        </ul>
+      <div class="mx-5 flex items-center gap-5 ">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <button class=" px-4 py-1 border-2 border-green-500 rounded-lg ">Login</button>
+        <button class="bg-green-500 rounded-lg px-4 py-1 ">Register</button>
+      </div>
+      
+    </div>  
+  </nav>
+  <!-- ! mobile screen Navbar -->
+  <nav class=" sm:hidden sticky w-full top-0 left-0 z-20 bg-white flex justify-between items-center shadow-xl border-2 p-4">
+    <div>
+      <img src="./images/logo-header.png" alt="">
+    </div>
+
+    <div><i class="fa-solid fa-bars mr-6 text-green-500"></i></div>
+    
+  </nav>
+    <header>
+        <!-- !Hero Section -->
+         <div class="container mx-auto grid place-content-center text-[#F0ECE4]">
+            <div class="text-center text-black">
+                <h2 class="font-bold text-4xl">Freshness <span class="text-[#179800]">You Can <br> </span> <span class="text-[#179800]"> Count </span> On, Price You'll Love!</h2>
+                <p class="text-center">Shop your daily essentials at unbeatable From fresh produce to party <br>staplex, we've got you covered every day! </p>
+            </div>
+            <div>
+                <img src="./images/hero-vegetables.png" alt="">
+
+            </div>
+         </div>
+    </header>
+    <main>
+        <section class="flex flex-col items-center justify-center mt-10">
+            <h2 class="font-bold text-[#179800] text-2xl mb-10">Services</h2>
+            <div class="sm:flex gap-20 justify-center ">
+              <div class=" mb-10 card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                <figure class="">
+                  <div class="w-[150px] h-[150px] flex justify-center items-center rounded-full bg-white my-2"><img src="./images/service.png" alt=""></div>
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">24/7 Services</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, cum.</p>
+                </div>
+              </div>
+                <div class=" mb-10 card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                  <figure class="">
+                    <div class="w-[150px] h-[150px] flex justify-center items-center rounded-full bg-white my-2"><img src="./images/delivery.png" alt=""></div>
+                  </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Fast Delivery</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, cum.</p>
+                    </div>
+                  </div>
+                <div class= "mb-10 card bg-base-100 w-96 shadow-xl bg-[#EFEBE3]">
+                  <figure class="">
+                    <div class="w-[150px] h-[150px] flex justify-center items-center rounded-full bg-white my-2"><img src="./images/healthy.png" alt=""></div>
+                  </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Healthy Products</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, cum.</p>
+                    </div>
+                  </div>
+                  
+
+
+            </div>
+        </section>
+        <!-- !Popular Products -->
+        <section class="bg-[#EFEBE3] py-5">
+          <div class="">
+            <h2 class="font-bold text-[#179800] text-2xl mb-10">Popular Products</h2>
+            <div class="sm:flex sm:gap-5 justify-around ml-5 mr-5">
+              <div class=" mb-10 bg-gradient-to-br from-[#53DB3A]  to-[#DEF8D9] rounded-lg">
+                <div class="m-10">
+                  <h3 class="text-2xl text-white font-bold mb-5">30% off</h3>
+                <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, recusandae!</p>
+                <button class=" rounded-lg px-3 text-black border bg-white">Buy Now</button>
+                </div>
+                <div class="h-50 w-50 ml-20">
+                  <img src="./images/vegetable-offer.png" alt="" >
+                </div>
+              </div>
+
+              <div class="mb-10 grid grid-cols-2 gap-5 sm:gap-5 sm:grid-cols-2 md:grid-cols-3">
+
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 2 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/potato.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 3 -->
+
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/tomato.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 4 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 5 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+
+                <!-- grid 6 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 7 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid-8 -->
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 9 -->
+
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+                <!-- grid 10 -->
+
+                <div class="bg-white flex items-center justify-center rounded-lg">
+                  <div class="bg-[#EFEBE3] m-2 rounded-lg"> <img src="./images/onion.png" alt=""></div>
+                  <div>
+                    <h2 class="font-bold px-2"> 4.5 <br> Onion 1 kg <br>$99.99</h2>
+                  </div>
+                </div>
+
+
+                
+              </div>
+
+
+
+
+            </div>  
+              
+          </div>
+        </section>
+        <!-- !Arrival and Offer Section -->
+         <section>
+          <div class="flex flex-col">
+            <div><h2 class="text-[#179800] my-5 font-bold">Arrival & Offers </h2></div>
+          <div class="ml-5 mr-5 sm:flex">
+            <!-- Dawat -->
+          <div class="bg-[#115414] flex justify-around items-center gap-10 rounded-lg">
+            <div class="txtdiv text-white">
+              <img src="./images/dawat-logo.png" alt="">
+              <button class="bg-[#63B76D] w-[150px] h-[30px] border-2  rounded-xl my-10 font-bold mx-10">Cook Exotic Dishes</button>
+              <h2 class="mx-10">Up to <span class="font-bold">20% Off</span></h2>
+            </div>
+            <div class="imgdiv"><img src="./images/dawat-mock-up.png" alt="" ></div>
+          </div>
+
+          <!-- Indian Gate -->
+           <div class="bg-[#102861] flex justify-around items-center rounded-lg">
+            <div class="text-white">
+              <img src="./images/india-gate-logo.png" alt="">
+              <button class="bg-[#2A4D97] w-[150px] h-[30px] border-2  rounded-xl my-10 font-bold mx-10">Cook Exotic Dishes</button>
+              <h2 class="mx-10">Up to <span class="font-bold text-xl">40% Off</span></h2>
+            </div>
+            <div><img src="./images/india-gate-mock-up.png" alt=""></div>
+
+           </div>
+          </div>
+          </div>
+         </section>
+
+         
+
+
+         
+
+    </main>
+
+
+    <!-- ! Get Grocery News -->
+    <section>
+      <div class=" bg-[#EFEBE3] grid grid-cols-1 place-items-center m-10 rounded-lg mx-auto justify-around sm:flex sm:justify-around items-center sm:mx-20">
+        <div class="border-4">
+          <img src="./images/vegetable-busket.png" alt="">
+  
+        </div>
+        <div class="py-10 border-4 text-center ">
+          <h2 class="font-bold text-3xl my-5 text-[#179800]">Get Grocery News!</h2>
+          <h3 class="text-xl text-center font-semibold mb-5">Exclusive training tips,ticks,product deals and more.</h3>
+          <input type="text" placeholder="Enter email" class="border border-gray-400 p-3 w-64 rounded-lg 
+          placeholder-gray-500 placeholder-italic placeholder-opacity-75 focus:outline-none focus:ring-2 focus:ring-green-500 block w-full">
+          <button class="bg-[#179800] text-white px-6 py-3 rounded-lg mt-4 text-xl">Subcribe</button>
+        </div>
+       </div>
+     </section>
+    
+     
+    <footer class="bg-[#179800] text-white relative">
+      
+      <div class="sm:flex sm:justify-between sm:items-center sm:gap-10 ">
+        <div class="border-2 border-red-600"> 
+          <img src="./images/logo-footer.png" alt=""> 
+          <div><p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p></div>
+        </div>
+        <div class="mt-5 border-2 border-blue-600">
+          <ul class="gap-5">
+          <li>Product</li>
+          <li>Services</li>
+          <li>Contact us</li></ul>
+        </div>
+        <div class="mt-5 border-2 border-black">
+          <h1>Follow Us</h1>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+
+      </div>
+
+    </footer>
+    
+</body>
+</html>
